@@ -21,3 +21,6 @@
  ul {
      text-decoration: none;
  }
+ ul:visited {
+     text-decoration: none;
+ }

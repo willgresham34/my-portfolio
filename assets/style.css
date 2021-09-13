@@ -7,7 +7,7 @@
 }
 
 html {
-    background-color: darkgray;
+    background-color: white;
 }
 
 body{
@@ -15,14 +15,35 @@ body{
 }
 
 header {
+    display: block;
+    /*background-color: rgb(58, 58, 58);*/
 
 }
 
 nav {
+    display: flex;
+    background-color: teal;
+    max-width: 30%;
+    float: right;
 
 }
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    align-content: space-between;
+
+}
+nav ul li{
+    display:flex;
+    justify-content: space-between;
+
+}
+nav a
 
 figure {
+    im
+    max-width: 500px;
 
 }
 

@@ -63,6 +63,7 @@ div p {
     color: var(--blue);
     font-weight: 500;
     font-size: 105%;
+    text-overflow: none;
 }
 
 main {
@@ -97,8 +98,7 @@ main {
     color: var(--dark);
 }
 .body {
-    background-color: turquoise;
-    border: 3px solid black;
+    
     margin: 10px;
     display: flex;
     min-height: 50px;
@@ -135,7 +135,7 @@ main {
 }
 .contact-me ul li a {
     text-decoration: none;
-    color: black;
+    color: var(--dark);
     border-bottom: solid 3px var(--blue);
 }
 .content {
@@ -145,3 +145,7 @@ main {
     justify-content: space-evenly;
     margin: 15px;
 }
+.para {
+    overflow: auto;
+}
+ .projBox

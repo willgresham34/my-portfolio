@@ -1,0 +1,125 @@
+:root {
+    --dark: rgb(58, 58, 58);
+    --blue: rgb(18, 26, 63);
+}
+
+
+html {
+    background-color: white;
+}
+
+body{
+
+}
+
+header {
+    margin: 0;
+    background-color: var(--dark); 
+    padding: 7px 3% 13px 0px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    font-size: 50px;
+    background-color: lightblue;
+    color: var(--dark);
+    text-align: left;
+    max-width: fit-content;
+    padding: 1px 12px 1px 7%;
+    
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    list-style-type: none;
+
+}
+
+nav ul li{
+    padding: 10px;
+    
+}
+
+nav ul li a {
+    color: lightblue;
+    padding: 2px;
+    border-bottom: solid lightblue 3px;
+    text-decoration: none;
+}
+
+h2 {
+    color: var(--blue);
+
+}
+
+main {
+    display:flex;
+    padding: 10px;
+    flex-direction: column;
+    background-color: rgb(155, 155, 45);
+    height: 100vh;    
+}
+
+.banner {
+    width: 100VW;
+    height: 125px;
+    background-image: url("../images/download.jfif");
+    background-size: cover;
+}
+
+.divText {
+    width: 96%;
+    height: 100%;
+    margin: 0px 3% 3% 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; 
+}
+
+.subtitle {
+    background-color: lightblue;
+    margin-bottom: 1.5%;
+    font-size: 25px;
+    font-weight: bold;
+    padding: .4%;
+    color: var(--dark);
+}
+.body {
+    background-color: turquoise;
+    border: 3px solid black;
+    margin: 10px;
+    display: flex;
+    min-height: 50px;
+    justify-content: space-between;
+}
+
+.side-title {
+    border: 1px solid black;
+    max-width: fit-content;
+    margin-left: px;
+    text-align: right;
+}
+.about-me {
+    min-height: 200px;
+}
+
+.work {
+    min-height: 500px;
+}
+
+.contact-me {
+
+}
+.contact-me ul li{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content {
+    
+}

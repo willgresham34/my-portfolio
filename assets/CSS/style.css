@@ -1,6 +1,6 @@
 :root {
     --dark: rgb(58, 58, 58);
-    --blue: rgb(18, 26, 63);
+    --blue: rgb(53, 69, 150);
 }
 
 
@@ -53,14 +53,22 @@ nav ul li a {
 
 h2 {
     color: var(--blue);
+    font-size: 250%;
 
+}
+h4 {
+    font-size: 150%;
+}
+div p {
+    color: var(--blue);
+    font-weight: 500;
+    font-size: 105%;
 }
 
 main {
     display:flex;
     padding: 10px;
     flex-direction: column;
-    background-color: rgb(155, 155, 45);
     height: 100vh;    
 }
 
@@ -98,21 +106,26 @@ main {
 }
 
 .side-title {
-    border: 1px solid black;
-    max-width: fit-content;
-    margin-left: px;
+    padding: 10px;
+    border-right: 3px solid var(--blue);
+    width: 25%;
+    margin: 10px 15px 0px 0px;
     text-align: right;
+    display:flex;
+    justify-content: flex-end;
+   
+   
 }
 .about-me {
-    min-height: 200px;
+    height: 25vh;
 }
 
 .work {
-    min-height: 500px;
+    height: 85vh;
 }
 
 .contact-me {
-
+    height: 20vh;
 }
 .contact-me ul li{
     text-decoration: none;
@@ -120,6 +133,15 @@ main {
     flex-direction: column;
     justify-content: center;
 }
+.contact-me ul li a {
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 3px var(--blue);
+}
 .content {
-    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 15px;
 }

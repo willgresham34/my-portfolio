@@ -148,4 +148,39 @@ main {
 .para {
     overflow: auto;
 }
- .projBox
+
+ .projContainer{
+    display:flex;
+    margin: 15px;
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+ } 
+
+ .projBox {
+     border: solid 1px black;
+     height: 33%; 
+     background-color: blue;
+     margin: 5px;
+     display:flex;
+     flex-wrap: wrap;
+}
+
+ #proj1 {
+    width:47%;
+ }
+
+ #proj2 {
+    width: 47%;
+ }
+
+ #proj3 {
+    width: 47%;
+ }
+
+ #proj4 {
+    width: 47%
+ }
+ #proj5 {
+    width: 47%;
+ }

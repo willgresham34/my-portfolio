@@ -223,3 +223,28 @@ main {
  .projContainer a {
      text-decoration: none;
  }
+
+ @media screen and (max-width:1360px) {
+    #proj2 {
+        width: 100%
+    } 
+    #proj3 {
+        width: 100%
+    }   
+    #proj4 {
+        width: 100%
+    }   
+    #proj5 {
+        width: 100%
+    }
+    .projBox {
+        height: 15%;
+    }
+    .about-me {
+        height: 30vh;
+    }
+    .contact-me ul li {
+        flex-direction: row;
+    }
+
+ }

@@ -172,14 +172,14 @@ main {
 
  #proj1 {
     width: 100%;
-    background-image: url(../images/Tom_and_Jerry-Banner.jpg);
+    background-image: url(../images/fortnite.jpg);
     background-size: cover;
     background-position:center;
  }
 
  #proj2 {
     width: 47%;
-    background-image: url(../images/buttongame.png);
+    background-image: url(../images/To-Do-List-Bool-Flag.jpg);
     background-size: cover;
     background-position:center;
  }
@@ -193,14 +193,14 @@ main {
 
  #proj4 {
     width: 47%;
-    background-image: url(../images/placeholder.jfif);
+    background-image: url(../images/question-mark-in-front-of-banner-background-vector.jpg);
     background-size: cover;
     background-position:center;
 
  }
  #proj5 {
     width: 47%;
-    background-image: url(../images/placeholder_2.jfif);
+    background-image: url(../images/weatherbanner.png);
     background-size: cover;
     background-position:center;
  }
